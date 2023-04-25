@@ -237,7 +237,7 @@ main{
     height: 100%;
     width: 100%;
     z-index: 100;
-    display: none ;
+    display: none;
 }   
 .contenedor .popup-img span{
     position: absolute;
@@ -253,15 +253,16 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 3rem solid var(--fondo);
+    border: 2rem solid var(--fondo);
     border-radius: 1rem;
-    width: 75rem;
-    height: 60rem;
+    height: 90%;
+    width: auto;
+    background-size: cover;
     object-fit: cover;
 }
 @media (max-width: 768px) {
     .contenedor .popup-img img{
-        width: 95%;
+        width: 80%;
         height: auto;
     }
 }
@@ -300,7 +301,7 @@ main{
     width: 100%;
     border-radius: 3rem;
     height: 30rem;
-    object-fit: cover;
+    object-fit: fill;
 }
 .somos{
     text-align: center;
