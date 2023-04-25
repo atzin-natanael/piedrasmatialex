@@ -136,7 +136,7 @@ body{
     }
 }
 .header{
-    height: 50rem;
+    height: 40rem;
     background-image:url(../img/chida.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -304,7 +304,16 @@ main{
 }
 .somos .check{
     padding-bottom: 1rem;
+    width: 10rem;
+    height: auto;
 }
+@media (min-width: 768px) {
+ .somos .check{
+    padding-bottom: 1rem;
+    width: 15rem;
+}
+}
+    
 
 @media (min-width: 768px) {
     .articulos{
