@@ -256,7 +256,7 @@ main{
     border: 3rem solid var(--fondo);
     border-radius: 1rem;
     width: 75rem;
-    height: 80rem;
+    height: 60rem;
     object-fit: cover;
 }
 @media (max-width: 768px) {
