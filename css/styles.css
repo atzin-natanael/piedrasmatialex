@@ -265,7 +265,12 @@ main{
 .footer .logo_nombre{
     margin-bottom: 1rem;
 }
-.row4{
+@media (min-width: 768px) {
+    .row4{
+        border-bottom: none;
+    }
+}
+.row4:last-child{
     border-bottom: none;
 }
 .row2 .cont2{
