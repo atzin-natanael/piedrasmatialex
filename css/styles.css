@@ -149,8 +149,17 @@ body{
 }
  
 .header-texto{
+    margin-top: 0;
     color: var(--blanco);
     text-align: center;
+}
+.destacados{
+    color: var(--rojo);
+}
+@media (min-width: 768px) {
+    .header-texto{
+        margin-top: 5rem;
+    } 
 }
 .navegacion_texto:hover{
     transform: scale(1.15);
@@ -337,7 +346,7 @@ main{
    font-family: 'Sansita', sans-serif;
    height: 6rem;
    background-color: var(--negro);
-   color: var(--blanco);
+   color: var(--primario);
 }
 .mapa{
     overflow:hidden;
@@ -393,4 +402,7 @@ li{
 .icon__barra:hover{
     stroke: var(--blanco);
     cursor: pointer;
+}
+.icon-tabler-flame{
+    fill: var(--primario);
 }
