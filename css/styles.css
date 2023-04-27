@@ -265,14 +265,18 @@ main{
 .footer .logo_nombre{
     margin-bottom: 1rem;
 }
+.f1{
+    border-bottom: none;
+}
+.row4:last-child{
+    border-bottom: none;
+}
 @media (min-width: 768px) {
     .row4{
         border-bottom: none;
     }
 }
-.row4:last-child{
-    border-bottom: none;
-}
+
 .row2 .cont2{
     border-bottom: none;
 }
