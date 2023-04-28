@@ -196,7 +196,7 @@ main{
 .contenedor{
     width: 15rem auto;
     margin: 1rem 1rem;
-    padding: 2rem;
+    padding: 1rem 1rem;
     display: grid;
     grid-template-columns: repeat(1 1fr);
     justify-content: center;
