@@ -403,3 +403,32 @@ li{
     stroke: var(--blanco);
     cursor: pointer;
 }
+
+/*SLIDER*/
+.mySwiper{
+    height: 45rem;
+    text-align: center;
+} 
+@media (max-width: 768px) {
+    .mySwiper img{
+        width: 30rem;
+        height: 30rem;
+        padding: 4rem 4rem;
+        padding-bottom: 0;  
+        border-radius: 3rem;     
+    }
+}
+@media (min-width: 768px) {
+    .mySwiper img{
+        width: 60%;
+        height: 35rem;
+        padding: 4rem 4rem;
+        padding-bottom: 0;  
+        border-radius: 3rem;     
+    }
+    .mySwiper{
+        height: 50rem;
+        text-align: center;
+    } 
+    
+}
