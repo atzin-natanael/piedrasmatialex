@@ -403,6 +403,3 @@ li{
     stroke: var(--blanco);
     cursor: pointer;
 }
-.icon-tabler-flame{
-    fill: var(--primario);
-}
