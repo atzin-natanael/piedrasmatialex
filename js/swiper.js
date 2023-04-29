@@ -2,9 +2,9 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 0,
     loop: true,
-    speed: 5000,
+    speed: 2000,
     autoplay: {
-        delay: 100,
+        delay: 3000,
         disableOnInteraction: true,
       },
     pagination: {
