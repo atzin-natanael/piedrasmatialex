@@ -12,6 +12,8 @@
     <link rel="preload" href="css/styles.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/whatsapp.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -42,7 +44,8 @@
             <div class="titulo">
                 <h3 class="destacados">Artículos Destacados</h3>
             </div> 
-                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30" loop="true">
+            <!--  
+             <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30" loop="true">
                     <swiper-slide>
                         <img class = "img2" src="img/cat-oreja.webp" alt="articulo">
                         <div class="articulos_info">
@@ -67,12 +70,42 @@
                         <p>Mármol Querétaro Negro<br> Su medida es de 5cm de ancho x 15cm de largo.</p>
                     </div>    
                     </swiper-slide>
-                    
-                </swiper-container>
-                        
-                    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script> 
-
-
+            </swiper-container> 
+-->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class = "img2" src="img/cat-oreja.webp" alt="articulo">
+                        <div class="articulos_info">
+                            <p>Laja Oreja de Elefante<br> Su medida es de 5cm de ancho x 15cm de largo.</p>
+                        </div>  
+      </div>
+      <div class="swiper-slide">
+        <img class = "img2" src="img/cat1.webp" alt="articulo">
+                    <div class="articulos_info">
+                        <p>Cantera Blanca Galarza<br> Su medida es de 5cm de ancho x 15cm de largo.</p>
+                    </div> 
+      </div>
+      <div class="swiper-slide">
+        <img class = "img2" src="img/cat2.webp" alt="articulo">
+                    <div class="articulos_info">
+                        <p>Mármol Dorado Tepeji<br> Su medida es de 5cm de ancho x 15cm de largo.</p>
+                    </div>  
+      </div>
+      <div class="swiper-slide">
+        <img class = "img2" src="img/cat3.webp" alt="articulo">
+                    <div class="articulos_info">
+                        <p>Mármol Querétaro Negro<br> Su medida es de 5cm de ancho x 15cm de largo.</p>
+                    </div>   
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./js/swiper.js"></script>
+            
                 <div class="titulo">
                     <h3>Catálogo</h3>
                 </div>
