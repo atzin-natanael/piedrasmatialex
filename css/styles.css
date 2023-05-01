@@ -210,8 +210,7 @@ main{
     text-align: center;
     border-bottom: 2px dotted var(--negro);
 }
-.articulos .img:hover,
-.articulostr .img:hover
+.img:hover
 {
     transform: scale(1.1);
     cursor: pointer;
@@ -411,18 +410,20 @@ li{
   }
   @media (max-width: 768px) {
     .swiper-slide img {
-        width: 100%;
+        margin-top: 2rem;
+        width: 90%;
+        border-radius: 3rem;
         height: 30rem;
-        padding-bottom: 0; 
+        object-fit: fill; 
       }
 }
 @media (min-width: 768px) {
     .swiper-slide img{
         width: 60%;
         height: 35rem;
-        padding: 4rem 4rem;
-        padding-bottom: 0;  
-        border-radius: 1in; 
+        margin: 2rem 4rem;
+        padding: 0;  
+        border-radius: 1rem; 
     }
     .swiper{
         height: 50rem;
