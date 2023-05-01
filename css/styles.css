@@ -430,9 +430,9 @@ li{
     } 
     
 }
-.swiper-button-next:after{
-    display: none;
-}
-.swiper-button-prev:after{
-    display: none;
+@media (max-width:768px) {
+    .swiper-button-next:after,
+    .swiper-button-prev:after{
+        display: none;
+    }  
 }
