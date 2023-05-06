@@ -86,8 +86,8 @@ body{
 .logo_nombre{
     margin: 0 0 2rem 0;
     color: var(--primario);
-    border-bottom: solid;
-    border-top: solid;
+    /* border-bottom: solid; */
+    /* border-top: solid; */
 }
 .navegacion_texto{
     font-size: 2rem;

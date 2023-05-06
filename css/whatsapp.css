@@ -46,10 +46,11 @@
     75% { transform: translateX(5px) }
     100% { transform: translateX(0) }
   }
-
+/*
   @media (max-width: 768px) {
     .nav--hidden {
-      transform: translateY(-5rem);
+      transform: translateY(calc(-1 * var(50px)));
       box-shadow: none;
     }   
   }
+  */

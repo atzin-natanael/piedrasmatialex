@@ -17,15 +17,12 @@ document.querySelector('.contenedor .popup-img').onclick = () => {
     document.querySelector('.popup-img').style.display = 'none'; 
 }
 
-const nav = document.querySelector(".float");
-  let lastScrollY = window.scrollY;
-
-  window.addEventListener("scroll", () => {
-    if (lastScrollY < window.scrollY) {
-      nav.classList.add("nav--hidden");
-    } else {
-      nav.classList.remove("nav--hidden");
+/*
+  window.onscroll = function() {
+    var y = window.scrollY;
+    console.log(y);
+    if(y >= 8500){
+        document.getElementsByClassName('.float').style.display = "none";
     }
-
-    lastScrollY = window.scrollY;
-  });
+  };
+  */
